@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-wrapper-pexelsapi",
+  "version": "1.0.0",
+  "description": "A wrapper for accessing pexels api service through Nodejs",
+  "main": "src/pexelsApiWrapper.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sajanv88/nodejs-wrapper-pexelsapi.git"
+  },
+  "keywords": ["Pexels API Wrapper", "Pexels Nodejs", "promised Pexles API"],
+  "author": "Sajankumar Vijayan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sajanv88/nodejs-wrapper-pexelsapi/issues"
+  },
+  "homepage": "https://github.com/sajanv88/nodejs-wrapper-pexelsapi#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.0.2"
+  }
+}
