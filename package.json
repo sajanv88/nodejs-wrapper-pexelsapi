@@ -1,6 +1,6 @@
 {
   "name": "nodejs-wrapper-pexelsapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for accessing pexels api service through Nodejs",
   "main": "src/pexelsApiWrapper.js",
   "engines": {
