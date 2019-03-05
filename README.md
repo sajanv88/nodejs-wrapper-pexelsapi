@@ -38,7 +38,7 @@ pexelsClient.searchVideos("people")
   .catch(error);
 
 //Get Trending Photos
-pexelsClient.getCuratedPhotos(1, 5)
+pexelsClient.getTrendingPhotos(1, 5)
   .then(response)
   .catch(error);
 
